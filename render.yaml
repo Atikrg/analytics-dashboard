@@ -2,13 +2,5 @@ services:
   - type: web
     name: analytics-backend
     runtime: node
-    nodeVersion: "18.17.0"
-    plan: free
-    rootDir: analytics-backend
-    buildCommand: npm install && npx nest build
-    startCommand: npm run start:prod
-    envVars:
-      - key: NODE_ENV
-        value: production
-      - key: NODE_BUILD_MEMORY
-        value: 4096
+    buildCommand: cd analytics-backend && npm install && npx nest build
+    startCommand: cd analytics-backend && npm run start:prod
