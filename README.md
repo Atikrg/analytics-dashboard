@@ -7,6 +7,18 @@ This repository contains a full-stack analytics demo for tracking user interacti
 - `analytics-backend/` — NestJS backend with MongoDB and Mongoose
 - `client/` — Next.js frontend with session dashboard, journey view, heatmap view, and client-side tracking
 
+
+
+
+
+https://github.com/user-attachments/assets/7cefe688-e71a-45e3-af46-a73849dec214
+
+
+
+
+
+
+
 ## Features
 
 - Client-side tracking of:
